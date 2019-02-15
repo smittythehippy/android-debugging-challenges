@@ -35,4 +35,6 @@ public class MainActivity extends AppCompatActivity {
     public void launchToolbarActivity(View view) {
         launchActivity(ToolbarActivity.class);
     }
+
+    public void launchSearchHistoryActivity(View view) { launchActivity(SearchHistoryActivity.class);}
 }
